@@ -12,7 +12,8 @@ namespace WebTestSolution.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var hm = new HomeViewModel { Title = "Index Page" };
+            return View(hm);
         }
 
         public IActionResult About()
