@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  webtestsolution:
+    image: webtestsolution
+    build:
+      context: .
+      dockerfile: WebTestSolution\Dockerfile
